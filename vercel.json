@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/h5/:match*", "destination": "/pzH5/:match*" },
+    { "source": "/:match*", "destination": "/pzadmin/:match*" }
+  ]
+}

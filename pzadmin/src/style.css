@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+    margin: 0;
+      padding: 0;
+      border: 0;
+  height: 100vh;
+  background-color: #f1f4f6;
+}
+
+#app {
+  height: 100%;
+}
+
+.el-header {
+  height: 50px !important;
+  padding: 0 !important;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid transparent;
+}
+
+.pagination-info {
+  padding: 10px 0;
+  background-color: #fff;
+  .el-pagination {
+    justify-content: end;
+  }
+}
